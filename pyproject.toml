@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tc"
+version = "0.1.0"
+description = ""
+authors = ["chbndrhnns <chbndrhnns@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ufmt = "^2.0.1"
+testcontainers = { version = "^3.7.0" , extras = ["postgresql"]}
+SQLAlchemy = "^1.4.41"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
